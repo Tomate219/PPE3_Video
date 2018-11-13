@@ -16,5 +16,22 @@ namespace PPE3_Video
         {
             InitializeComponent();
         }
+
+        private void genreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ajouterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+             FormAjouterGenre f = new FormAjouterGenre();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void ajouterToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
