@@ -16,5 +16,10 @@ namespace PPE3_Video
         {
             InitializeComponent();
         }
+
+        private void btValider_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

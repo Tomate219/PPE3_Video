@@ -34,12 +34,13 @@
             // 
             // btValider
             // 
-            this.btValider.Location = new System.Drawing.Point(84, 137);
+            this.btValider.Location = new System.Drawing.Point(84, 129);
             this.btValider.Name = "btValider";
             this.btValider.Size = new System.Drawing.Size(75, 23);
             this.btValider.TabIndex = 0;
             this.btValider.Text = "Valider";
             this.btValider.UseVisualStyleBackColor = true;
+            this.btValider.Click += new System.EventHandler(this.btValider_Click);
             // 
             // tbNom
             // 
