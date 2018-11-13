@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="265fd13d070f47d5ac4535e331c6b643" Name="Diagram1">
+        <EntityTypeShape EntityType="VideoPPE3Groupe4Model.client" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoPPE3Groupe4Model.emprunt" Width="1.5" PointX="5.25" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoPPE3Groupe4Model.episode" Width="1.5" PointX="9.75" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoPPE3Groupe4Model.film" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoPPE3Groupe4Model.genre" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoPPE3Groupe4Model.saison" Width="1.5" PointX="7.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoPPE3Groupe4Model.serie" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoPPE3Groupe4Model.support" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="VideoPPE3Groupe4Model.fk_emprunt_client" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoPPE3Groupe4Model.fk_emprunt_support" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoPPE3Groupe4Model.fk_episode_saison" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoPPE3Groupe4Model.fk_film_support" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoPPE3Groupe4Model.fk_support_genre" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoPPE3Groupe4Model.fk_saison_serie" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoPPE3Groupe4Model.fk_serie_support" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

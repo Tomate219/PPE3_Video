@@ -37,7 +37,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.IsMdiContainer = true;
             this.Name = "FromAcceuil";
-            this.Text = "GestionVideo";
+            this.Text = "GestionVidéo";
             this.ResumeLayout(false);
 
         }
