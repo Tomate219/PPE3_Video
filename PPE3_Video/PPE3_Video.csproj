@@ -79,6 +79,12 @@
     <Compile Include="FormAjoutCompte.Designer.cs">
       <DependentUpon>FormAjoutCompte.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormRechercher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRechercher.Designer.cs">
+      <DependentUpon>FormRechercher.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormValiderCompte.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +139,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRechercher.resx">
+      <DependentUpon>FormRechercher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormValiderCompte.resx">
       <DependentUpon>FormValiderCompte.cs</DependentUpon>
