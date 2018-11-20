@@ -16,7 +16,7 @@ namespace PPE3_Video
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FromAcceuil());
+            Application.Run(new FormAcceuil());
         }
     }
 }
