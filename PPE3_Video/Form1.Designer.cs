@@ -1,6 +1,6 @@
 ﻿namespace PPE3_Video
 {
-    partial class FromAcceuil
+    partial class FormAcceuil
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -43,6 +43,7 @@
             this.fermetureDunCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajoutDunCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.composantsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+
             this.genreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.filmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sérieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -58,6 +59,7 @@
             this.modifierToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.ajouterToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.modifierToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -146,25 +148,36 @@
             this.validationDunCompteToolStripMenuItem.Name = "validationDunCompteToolStripMenuItem";
             this.validationDunCompteToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.validationDunCompteToolStripMenuItem.Text = "Validation d\'un compte";
+            this.validationDunCompteToolStripMenuItem.Click += new System.EventHandler(this.validationDunCompteToolStripMenuItem_Click);
             // 
             // vérificationDunCompteToolStripMenuItem
             // 
             this.vérificationDunCompteToolStripMenuItem.Name = "vérificationDunCompteToolStripMenuItem";
             this.vérificationDunCompteToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.vérificationDunCompteToolStripMenuItem.Text = "Vérification d\'un compte";
+            this.vérificationDunCompteToolStripMenuItem.Click += new System.EventHandler(this.vérificationDunCompteToolStripMenuItem_Click);
             // 
             // fermetureDunCompteToolStripMenuItem
             // 
             this.fermetureDunCompteToolStripMenuItem.Name = "fermetureDunCompteToolStripMenuItem";
             this.fermetureDunCompteToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.fermetureDunCompteToolStripMenuItem.Text = "Fermeture d\'un compte";
+            this.fermetureDunCompteToolStripMenuItem.Click += new System.EventHandler(this.fermetureDunCompteToolStripMenuItem_Click);
             // 
             // ajoutDunCompteToolStripMenuItem
             // 
             this.ajoutDunCompteToolStripMenuItem.Name = "ajoutDunCompteToolStripMenuItem";
             this.ajoutDunCompteToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.ajoutDunCompteToolStripMenuItem.Text = "Ajout d\'un compte";
+            this.ajoutDunCompteToolStripMenuItem.Click += new System.EventHandler(this.ajoutDunCompteToolStripMenuItem_Click);
             // 
+            // composantsToolStripMenuItem
+            // 
+            this.composantsToolStripMenuItem.Name = "composantsToolStripMenuItem";
+            this.composantsToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
+            this.composantsToolStripMenuItem.Text = "Composants";
+            // 
+
             // composantsToolStripMenuItem
             // 
             this.composantsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -286,6 +299,7 @@
             this.modifierToolStripMenuItem4.Text = "Modifier";
             // 
             // FromAcceuil
+
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -293,7 +307,7 @@
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "FromAcceuil";
+            this.Name = "FormAcceuil";
             this.Text = "GestionVideo";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
