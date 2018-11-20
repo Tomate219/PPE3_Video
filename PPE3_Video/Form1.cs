@@ -17,6 +17,22 @@ namespace PPE3_Video
             InitializeComponent();
         }
 
+        private void genreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ajouterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+             FormAjouterGenre f = new FormAjouterGenre();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void ajouterToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+
         private void validationDunCompteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormValiderCompte ValiderCompte = new FormValiderCompte();
@@ -43,6 +59,7 @@ namespace PPE3_Video
             FormAjoutCompte AjouterCompte = new FormAjoutCompte();
             AjouterCompte.MdiParent = this;
             AjouterCompte.Show();
+
         }
     }
 }
