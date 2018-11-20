@@ -43,23 +43,6 @@
             this.fermetureDunCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajoutDunCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.composantsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-
-            this.genreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.filmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sérieToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saisonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajouterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajouterToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modifierToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajouterToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modifierToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajouterToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modifierToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajouterToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modifierToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -177,129 +160,7 @@
             this.composantsToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
             this.composantsToolStripMenuItem.Text = "Composants";
             // 
-
-            // composantsToolStripMenuItem
-            // 
-            this.composantsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.genreToolStripMenuItem,
-            this.filmToolStripMenuItem,
-            this.sérieToolStripMenuItem,
-            this.saisonToolStripMenuItem,
-            this.clientToolStripMenuItem});
-            this.composantsToolStripMenuItem.Name = "composantsToolStripMenuItem";
-            this.composantsToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
-            this.composantsToolStripMenuItem.Text = "Composants";
-            // 
-            // genreToolStripMenuItem
-            // 
-            this.genreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ajouterToolStripMenuItem,
-            this.modifierToolStripMenuItem});
-            this.genreToolStripMenuItem.Name = "genreToolStripMenuItem";
-            this.genreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.genreToolStripMenuItem.Text = "Genre";
-            this.genreToolStripMenuItem.Click += new System.EventHandler(this.genreToolStripMenuItem_Click);
-            // 
-            // filmToolStripMenuItem
-            // 
-            this.filmToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ajouterToolStripMenuItem1,
-            this.modifierToolStripMenuItem1});
-            this.filmToolStripMenuItem.Name = "filmToolStripMenuItem";
-            this.filmToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.filmToolStripMenuItem.Text = "Film";
-            // 
-            // sérieToolStripMenuItem
-            // 
-            this.sérieToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ajouterToolStripMenuItem2,
-            this.modifierToolStripMenuItem2});
-            this.sérieToolStripMenuItem.Name = "sérieToolStripMenuItem";
-            this.sérieToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sérieToolStripMenuItem.Text = "Série";
-            // 
-            // saisonToolStripMenuItem
-            // 
-            this.saisonToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ajouterToolStripMenuItem3,
-            this.modifierToolStripMenuItem3});
-            this.saisonToolStripMenuItem.Name = "saisonToolStripMenuItem";
-            this.saisonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.saisonToolStripMenuItem.Text = "Saison";
-            // 
-            // clientToolStripMenuItem
-            // 
-            this.clientToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ajouterToolStripMenuItem4,
-            this.modifierToolStripMenuItem4});
-            this.clientToolStripMenuItem.Name = "clientToolStripMenuItem";
-            this.clientToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.clientToolStripMenuItem.Text = "Client";
-            // 
-            // ajouterToolStripMenuItem
-            // 
-            this.ajouterToolStripMenuItem.Name = "ajouterToolStripMenuItem";
-            this.ajouterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.ajouterToolStripMenuItem.Text = "Ajouter";
-            this.ajouterToolStripMenuItem.Click += new System.EventHandler(this.ajouterToolStripMenuItem_Click);
-            // 
-            // modifierToolStripMenuItem
-            // 
-            this.modifierToolStripMenuItem.Name = "modifierToolStripMenuItem";
-            this.modifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.modifierToolStripMenuItem.Text = "Modifier";
-            // 
-            // ajouterToolStripMenuItem1
-            // 
-            this.ajouterToolStripMenuItem1.Name = "ajouterToolStripMenuItem1";
-            this.ajouterToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.ajouterToolStripMenuItem1.Text = "Ajouter";
-            this.ajouterToolStripMenuItem1.Click += new System.EventHandler(this.ajouterToolStripMenuItem1_Click);
-            // 
-            // modifierToolStripMenuItem1
-            // 
-            this.modifierToolStripMenuItem1.Name = "modifierToolStripMenuItem1";
-            this.modifierToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.modifierToolStripMenuItem1.Text = "Modifier";
-            // 
-            // ajouterToolStripMenuItem2
-            // 
-            this.ajouterToolStripMenuItem2.Name = "ajouterToolStripMenuItem2";
-            this.ajouterToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.ajouterToolStripMenuItem2.Text = "Ajouter";
-            // 
-            // modifierToolStripMenuItem2
-            // 
-            this.modifierToolStripMenuItem2.Name = "modifierToolStripMenuItem2";
-            this.modifierToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.modifierToolStripMenuItem2.Text = "Modifier";
-            // 
-            // ajouterToolStripMenuItem3
-            // 
-            this.ajouterToolStripMenuItem3.Name = "ajouterToolStripMenuItem3";
-            this.ajouterToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.ajouterToolStripMenuItem3.Text = "Ajouter";
-            // 
-            // modifierToolStripMenuItem3
-            // 
-            this.modifierToolStripMenuItem3.Name = "modifierToolStripMenuItem3";
-            this.modifierToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
-            this.modifierToolStripMenuItem3.Text = "Modifier";
-            // 
-            // ajouterToolStripMenuItem4
-            // 
-            this.ajouterToolStripMenuItem4.Name = "ajouterToolStripMenuItem4";
-            this.ajouterToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.ajouterToolStripMenuItem4.Text = "Ajouter";
-            // 
-            // modifierToolStripMenuItem4
-            // 
-            this.modifierToolStripMenuItem4.Name = "modifierToolStripMenuItem4";
-            this.modifierToolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
-            this.modifierToolStripMenuItem4.Text = "Modifier";
-            // 
-            // FromAcceuil
-
+            // FormAcceuil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -333,21 +194,6 @@
         private System.Windows.Forms.ToolStripMenuItem vérificationDunCompteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fermetureDunCompteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajoutDunCompteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem genreToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ajouterToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modifierToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem filmToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ajouterToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem modifierToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem sérieToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ajouterToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem modifierToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem saisonToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ajouterToolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem modifierToolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem clientToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ajouterToolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem modifierToolStripMenuItem4;
     }
 }
 
