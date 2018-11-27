@@ -41,7 +41,7 @@
 			this.dgRecherche.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.dgRecherche.Location = new System.Drawing.Point(0, 54);
 			this.dgRecherche.Name = "dgRecherche";
-			this.dgRecherche.Size = new System.Drawing.Size(282, 205);
+			this.dgRecherche.Size = new System.Drawing.Size(467, 283);
 			this.dgRecherche.TabIndex = 0;
 			// 
 			// entityCommand1
@@ -56,7 +56,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(282, 259);
+			this.ClientSize = new System.Drawing.Size(468, 339);
 			this.Controls.Add(this.dgRecherche);
 			this.Name = "FormRechercher";
 			this.Text = "FormRechercher";

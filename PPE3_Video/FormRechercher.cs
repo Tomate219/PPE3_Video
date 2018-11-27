@@ -22,7 +22,22 @@ namespace PPE3_Video
 
 		private void FormRechercher_Load(object sender, EventArgs e)
 		{
-			bsRecherche.DataSource = Controleur.Liste(fenetre);
+			if (fenetre == 5 || fenetre == 6)
+			{
+				switch (fenetre)
+				{
+					case 5:
+						bsRecherche.DataSource = Controleur.Liste(5);
+						break;
+					case 6:
+						bsRecherche.DataSource = Controleur.Liste(6);
+						break;
+				}
+			}
+			else
+			{
+				bsRecherche.DataSource = Controleur.Liste(fenetre);
+			}
 			dgRecherche.DataSource = bsRecherche;
 			chargement = false;
 			switch (fenetre)
@@ -48,6 +63,22 @@ namespace PPE3_Video
 				dgRecherche.Columns[3].HeaderText = "Réalisateur";
 				dgRecherche.Columns[4].HeaderText = "Image";
 				dgRecherche.Columns[5].HeaderText = "IdGenre";
+					break;
+
+				case 5:
+				dgRecherche.Columns[1].HeaderText = "Id";
+				dgRecherche.Columns[2].HeaderText = "Nom";
+				dgRecherche.Columns[3].HeaderText = "Prénom";
+				dgRecherche.Columns[4].HeaderText = "Adresse mail";
+				dgRecherche.Columns[5].HeaderText = "Date d'abonement";
+				dgRecherche.Columns[6].HeaderText = "Login";
+				dgRecherche.Columns[7].HeaderText = "Mot de passe";
+
+				dgRecherche.Columns[4].DisplayIndex = 0;
+					break;
+
+				case 6:
+				
 					break;
 			}
 			
