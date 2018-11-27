@@ -31,7 +31,6 @@ namespace PPE3_Video
 					return Connexion.client.ToList();
 				case 5:
 					return Connexion.client.ToList();
-				case 6:
 
 			}
 			return null;

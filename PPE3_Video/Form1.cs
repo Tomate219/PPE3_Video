@@ -54,19 +54,62 @@ namespace PPE3_Video
 		private void parClientToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			FormRechercher vueClient = new FormRechercher(1);
-			vueClient.Show();
+            vueClient.MdiParent = this;
+            vueClient.Show();
 		}
 
 		private void parGenreToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			FormRechercher vueClient = new FormRechercher(2);
-			vueClient.Show();
+            vueClient.MdiParent = this;
+            vueClient.Show();
 		}
 
 		private void parSupportToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			FormRechercher vueClient = new FormRechercher(3);
-			vueClient.Show();
+            vueClient.MdiParent = this;
+            vueClient.Show();
 		}
-	}
+
+        private void FormAcceuil_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ajoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormAjoutComposant vueClient = new FormAjoutComposant("genre");
+            vueClient.MdiParent = this;
+            vueClient.Show();
+        }
+
+        private void ajoutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormAjoutComposant vueClient = new FormAjoutComposant("film");
+            vueClient.MdiParent = this;
+            vueClient.Show();
+        }
+
+        private void ajoutToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            FormAjoutComposant vueClient = new FormAjoutComposant("série");
+            vueClient.MdiParent = this;
+            vueClient.Show();
+        }
+
+        private void ajoutToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            FormAjoutComposant vueClient = new FormAjoutComposant("saison");
+            vueClient.MdiParent = this;
+            vueClient.Show();
+        }
+
+        private void ajoutToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            FormAjoutComposant vueClient = new FormAjoutComposant("client");
+            vueClient.MdiParent = this;
+            vueClient.Show();
+        }
+    }
 }
