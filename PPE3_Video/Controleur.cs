@@ -27,13 +27,11 @@ namespace PPE3_Video
 					return Connexion.genre.ToList();
 				case 3:
 					return Connexion.support.ToList();
-				case 4:
-					return Connexion.client.ToList();
 				case 5:
-					return Connexion.client.ToList();
+					return Connexion.client.OrderBy(client => client.dateAbonnementClient).ToList();
 				case 6:
-
-			}
+					return Connexion.emprunt.OrderBy(emprunt => emprunt.idEmprunt).ToList();
+			}	
 			return null;
 		}
 

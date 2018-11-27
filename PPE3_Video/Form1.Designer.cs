@@ -43,7 +43,9 @@
 			this.fermetureDunCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.ajoutDunCompteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.composantsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.menuStrip1.SuspendLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// menuStrip1
@@ -112,12 +114,14 @@
 			this.parRéférenceEmpruntToolStripMenuItem.Name = "parRéférenceEmpruntToolStripMenuItem";
 			this.parRéférenceEmpruntToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
 			this.parRéférenceEmpruntToolStripMenuItem.Text = "Par Référence Emprunt";
+			this.parRéférenceEmpruntToolStripMenuItem.Click += new System.EventHandler(this.parRéférenceEmpruntToolStripMenuItem_Click);
 			// 
 			// parDateAbonnementToolStripMenuItem
 			// 
 			this.parDateAbonnementToolStripMenuItem.Name = "parDateAbonnementToolStripMenuItem";
 			this.parDateAbonnementToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
 			this.parDateAbonnementToolStripMenuItem.Text = "Par date Abonnement";
+			this.parDateAbonnementToolStripMenuItem.Click += new System.EventHandler(this.parDateAbonnementToolStripMenuItem_Click);
 			// 
 			// compteToolStripMenuItem
 			// 
@@ -164,18 +168,34 @@
 			this.composantsToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
 			this.composantsToolStripMenuItem.Text = "Composants";
 			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.BackgroundImage = global::PPE3_Video.Properties.Resources._1280px_YouTube_Diamond_Play_Button_svg;
+			this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+			this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.pictureBox1.Location = new System.Drawing.Point(0, 24);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(800, 426);
+			this.pictureBox1.TabIndex = 3;
+			this.pictureBox1.TabStop = false;
+			this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+			// 
 			// FormAcceuil
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackgroundImage = global::PPE3_Video.Properties.Resources.LogoPrincipal;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.menuStrip1);
 			this.IsMdiContainer = true;
 			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "FormAcceuil";
 			this.Text = "GestionVideo";
+			this.Load += new System.EventHandler(this.FormAcceuil_Load);
 			this.menuStrip1.ResumeLayout(false);
 			this.menuStrip1.PerformLayout();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -198,6 +218,7 @@
         private System.Windows.Forms.ToolStripMenuItem vérificationDunCompteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fermetureDunCompteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ajoutDunCompteToolStripMenuItem;
-    }
+		private System.Windows.Forms.PictureBox pictureBox1;
+	}
 }
 

@@ -68,5 +68,27 @@ namespace PPE3_Video
 			FormRechercher vueClient = new FormRechercher(3);
 			vueClient.Show();
 		}
+
+		private void FormAcceuil_Load(object sender, EventArgs e)
+		{
+
+		}
+
+		private void parRéférenceEmpruntToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			FormRechercher vueClient = new FormRechercher(6);
+			vueClient.Show();
+		}
+
+		private void parDateAbonnementToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			FormRechercher vueClient = new FormRechercher(5);
+			vueClient.Show();
+		}
+
+		private void pictureBox1_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
