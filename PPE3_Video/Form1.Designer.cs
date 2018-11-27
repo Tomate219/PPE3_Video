@@ -70,7 +70,7 @@
 			// quitterToolStripMenuItem
 			// 
 			this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-			this.quitterToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+			this.quitterToolStripMenuItem.Size = new System.Drawing.Size(111, 22);
 			this.quitterToolStripMenuItem.Text = "Quitter";
 			this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
 			// 
@@ -91,18 +91,21 @@
 			this.parGenreToolStripMenuItem.Name = "parGenreToolStripMenuItem";
 			this.parGenreToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
 			this.parGenreToolStripMenuItem.Text = "Par Genre";
+			this.parGenreToolStripMenuItem.Click += new System.EventHandler(this.parGenreToolStripMenuItem_Click);
 			// 
 			// parSupportToolStripMenuItem
 			// 
 			this.parSupportToolStripMenuItem.Name = "parSupportToolStripMenuItem";
 			this.parSupportToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
 			this.parSupportToolStripMenuItem.Text = "Par Support";
+			this.parSupportToolStripMenuItem.Click += new System.EventHandler(this.parSupportToolStripMenuItem_Click);
 			// 
 			// parClientToolStripMenuItem
 			// 
 			this.parClientToolStripMenuItem.Name = "parClientToolStripMenuItem";
 			this.parClientToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
 			this.parClientToolStripMenuItem.Text = "Par Client";
+			this.parClientToolStripMenuItem.Click += new System.EventHandler(this.parClientToolStripMenuItem_Click);
 			// 
 			// parRéférenceEmpruntToolStripMenuItem
 			// 

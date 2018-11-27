@@ -31,6 +31,7 @@
 			this.components = new System.ComponentModel.Container();
 			this.dgRecherche = new System.Windows.Forms.DataGridView();
 			this.bsRecherche = new System.Windows.Forms.BindingSource(this.components);
+			this.entityCommand1 = new System.Data.Entity.Core.EntityClient.EntityCommand();
 			((System.ComponentModel.ISupportInitialize)(this.dgRecherche)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.bsRecherche)).BeginInit();
 			this.SuspendLayout();
@@ -38,11 +39,18 @@
 			// dgRecherche
 			// 
 			this.dgRecherche.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dgRecherche.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.dgRecherche.Location = new System.Drawing.Point(0, 0);
+			this.dgRecherche.Location = new System.Drawing.Point(0, 54);
 			this.dgRecherche.Name = "dgRecherche";
-			this.dgRecherche.Size = new System.Drawing.Size(282, 259);
+			this.dgRecherche.Size = new System.Drawing.Size(282, 205);
 			this.dgRecherche.TabIndex = 0;
+			// 
+			// entityCommand1
+			// 
+			this.entityCommand1.CommandTimeout = 0;
+			this.entityCommand1.CommandTree = null;
+			this.entityCommand1.Connection = null;
+			this.entityCommand1.EnablePlanCaching = true;
+			this.entityCommand1.Transaction = null;
 			// 
 			// FormRechercher
 			// 
@@ -63,5 +71,6 @@
 
 		private System.Windows.Forms.DataGridView dgRecherche;
 		private System.Windows.Forms.BindingSource bsRecherche;
+		private System.Data.Entity.Core.EntityClient.EntityCommand entityCommand1;
 	}
 }
