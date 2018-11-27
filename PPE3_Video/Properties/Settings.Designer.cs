@@ -27,7 +27,7 @@ namespace PPE3_Video.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=172.16.0.50;Initial Catalog=VideoPPE3Groupe4;Persist Security Info=Tr" +
-            "ue;User ID=ALT18GRAVAN;Password=132!gravran")]
+            "ue;User ID=ALT18LEMASSON;Password=Ulric.121199")]
         public string VideoPPE3Groupe4ConnectionString {
             get {
                 return ((string)(this["VideoPPE3Groupe4ConnectionString"]));

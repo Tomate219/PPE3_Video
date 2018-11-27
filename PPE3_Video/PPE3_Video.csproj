@@ -58,6 +58,7 @@
     <Compile Include="client.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Controleur.cs" />
     <Compile Include="emprunt.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

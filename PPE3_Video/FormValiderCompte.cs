@@ -15,6 +15,16 @@ namespace PPE3_Video
         public FormValiderCompte()
         {
             InitializeComponent();
+            
+        }
+        private void cbBoxMailClient_SelectedValueChanged(object sender, EventArgs e)
+        {
+            txtBoxIdClient.Text = cbBoxMailClient.Text;
+        }
+
+        private void btnValider_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
